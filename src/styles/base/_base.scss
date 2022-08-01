@@ -10,7 +10,8 @@ body {
 	color: #fff;
 }
 
-h1 {
+h1,
+h2 {
 	font-family: 'Osake';
 }
 
@@ -20,4 +21,14 @@ ul {
 
 .link {
 	text-decoration: none;
+}
+
+h2 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 110px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #ffffff;
 }

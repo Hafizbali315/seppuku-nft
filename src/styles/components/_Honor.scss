@@ -1,0 +1,60 @@
+.honor {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 120px 20px;
+
+	.bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: bottom cover;
+		}
+	}
+
+	.content_container {
+		z-index: 2;
+		max-width: 940px;
+
+		p {
+			margin-top: 50px;
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 30px;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+			color: rgba(255, 255, 255, 0.8);
+
+			span {
+				font-weight: 600;
+				color: rgba(255, 255, 255, 1);
+			}
+		}
+	}
+}
+
+@include desktop-screen {
+	padding: 100px 100px;
+}
+@include laptop-screen {
+	padding: 100px 50px;
+}
+@include tablet-screen {
+	.honor {
+		padding: 70px 20px;
+	}
+}
