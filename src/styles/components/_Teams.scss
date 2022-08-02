@@ -7,6 +7,7 @@
 	align-items: center;
 	justify-content: center;
 	padding: 100px 140px;
+	// z-index: 2;
 
 	.bg {
 		position: absolute;
@@ -30,7 +31,7 @@
 		flex-direction: column;
 		gap: 60px;
 		width: 100%;
-		z-index: 2;
+		z-index: 99;
 
 		.teams_row {
 			width: 100%;
