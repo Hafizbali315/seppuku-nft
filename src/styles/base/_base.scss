@@ -32,3 +32,19 @@ h2 {
 	text-transform: uppercase;
 	color: #ffffff;
 }
+
+@include desktop-screen {
+	h2 {
+		font-size: 70px;
+	}
+}
+@include laptop-screen {
+	h2 {
+		font-size: 60px;
+	}
+}
+@include tablet-screen {
+	h2 {
+		font-size: 50px;
+	}
+}

@@ -2,7 +2,7 @@ import HonorSectionBg from '../assets/images/HonorSectionBg.png'
 
 const Honor = () => {
 	return (
-		<div className="honor">
+		<div className="honor" id="honor">
 			<div className="content_container">
 				<h2>Honor</h2>
 				<p>
